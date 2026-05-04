@@ -19,5 +19,7 @@ public class Localizacao {
     public void setSetor(int setor) {
         this.setor = setor;
     }
-   
+   public String definicaoDeArmazenamento() {
+        return "Armazenado no setor " + setor + " - " + descricao;
+    }
 }

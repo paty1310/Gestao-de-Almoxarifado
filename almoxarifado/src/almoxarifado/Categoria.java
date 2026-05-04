@@ -21,4 +21,7 @@ public class Categoria {
         this.descricao = descricao;
     }
     
+    public void classificarItens() {
+        System.out.println("Itens classificados na categoria: " + nome);
+    }
 }

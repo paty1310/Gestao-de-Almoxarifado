@@ -48,5 +48,8 @@ public class Movimentacao {
     public void setUsuario(int usuario) {
         this.usuario = usuario;
     }
-    
+     public boolean registroDeEntrada() {
+        System.out.println("Movimentação registrada: " + tipo);
+        return true;
+    }
 }

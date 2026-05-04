@@ -29,4 +29,7 @@ public class Usuario {
         this.perfil = perfil;
     }
     
+    public String interacaoComSistema() {
+        return "Usuário " + login + " interagindo com o sistema.";
+    }
 }

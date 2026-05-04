@@ -1,6 +1,7 @@
 package almoxarifado;
 
 public class Fornecedor {
+
     private String nome;
     private int numeroContato;
     private int cnpj;
@@ -28,5 +29,8 @@ public class Fornecedor {
     public void setCnpj(int cnpj) {
         this.cnpj = cnpj;
     }
-    
+
+    public String fornecerMateriais() {
+        return "Fornecedor " + nome + " fornecendo materiais.";
+    }
 }

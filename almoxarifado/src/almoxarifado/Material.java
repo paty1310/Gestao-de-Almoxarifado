@@ -77,4 +77,7 @@ public class Material {
     public void produtoArmaenado(){
         System.out.println("Produto " + nome + " armazenado.");
     }
+        public void produtoArmazenado() {
+        System.out.println("Produto " + nome + " armazenado.");
+        }
 }

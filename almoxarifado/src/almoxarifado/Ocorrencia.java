@@ -58,4 +58,9 @@ public class Ocorrencia {
     public void setPrioridade(String prioridade) {
         this.prioridade = prioridade;
     }
+    public boolean consumirItens() {
+        System.out.println("Ocorrência processada: " + tipo);
+        return true;
+    }
+
 }
